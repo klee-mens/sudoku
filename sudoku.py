@@ -94,7 +94,7 @@ def sudoku_schwer1():
 	sudoku[2][7] = 9
 	sudoku[3][1] = 1
 	sudoku[3][3] = 6
-	sudoku[3][4] = 9
+	sudoku[3][4] = 9	
 	sudoku[3][5] = 3
 	sudoku[3][7] = 2
 	sudoku[4][6] = 9
@@ -112,6 +112,15 @@ def sudoku_schwer1():
 	sudoku[8][1] = 5
 	sudoku[8][4] = 1
 	sudoku[8][7] = 4
+
+
+def sudoku_sehr_schwer1():
+	sudoku[0][0] = 1
+
+def sudoku_clear():
+	for i in range(9):
+		for j in range(9):
+			sudoku[0][0] = 0
 
 def show():
 	for i in range(9):
