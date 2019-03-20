@@ -115,7 +115,8 @@ def sudoku_schwer1():
 
 
 def sudoku_sehr_schwer1():
-	sudoku[0][0] = 1
+	sudoku[0][1] = 5
+
 
 def sudoku_clear():
 	for i in range(9):
